@@ -2,18 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// class is an object classification
-// I must have open and closed {} per object
-public class Class1 : MonoBehaviour {
+public class Animal : MonoBehaviour {
 
-	// void is a function that is void or empty or null
+	// Hey there!
 	// Use this for initialization
 	void Start () {
-		
+		print("An aminal is eating.");
+		print("I love my animal.");
 	}
 	
+	void OnMouseDown()
+	{
+		print("Meow.");
+	}
+
 	// Update is called once per frame
 	void Update () {
 		
-	}
+	}	
 }
