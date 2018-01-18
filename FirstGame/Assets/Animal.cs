@@ -5,6 +5,7 @@ using UnityEngine;
 public class Animal : MonoBehaviour {
 
 	// Hey there!
+	// This is a new comment
 	// Use this for initialization
 	void Start () {
 		print("An aminal is eating.");
