@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 578818541}
   - component: {fileID: 578818540}
   - component: {fileID: 578818539}
+  - component: {fileID: 578818544}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -138,11 +139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed0e42c6e780d74199afccf43a97c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Cat
-  FoodCount: 0
+  Key: 0
   Hungry: 0
-  MyFloat: 0
-  HasFur: 0
 --- !u!23 &578818540
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -207,6 +205,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &578818544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578818538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cfb7c121ea8cfc419cde4195d98b4e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Players:
+  - {fileID: 11400000, guid: ecfa2b83ea7caf74eae45226d0f0787f, type: 2}
+  - {fileID: 11400000, guid: 6f4d44fc0c24e1844be4cd60a0815ef3, type: 2}
+  - {fileID: 11400000, guid: 1fc70d4eb2ce0014094b867a0a81768e, type: 2}
+  - {fileID: 11400000, guid: 03abf8b7478903f4ea254635d7a477ee, type: 2}
+  HighScores: b00400004c040000830300007c03000058000000
+  PowerUps:
+  - {fileID: 11400000, guid: 6c8d06a65d8985348a1ecfef729b3a46, type: 2}
+  - {fileID: 11400000, guid: d8a3b9b1fb1ccb4499cb1c95040c642b, type: 2}
 --- !u!1 &1395598864
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,11 +255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed0e42c6e780d74199afccf43a97c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Dog
-  FoodCount: 12
+  Key: 0
   Hungry: 1
-  MyFloat: 0
-  HasFur: 1
 --- !u!23 &1395598866
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -425,11 +440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed0e42c6e780d74199afccf43a97c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Fish
-  FoodCount: 16
+  Key: 0
   Hungry: 0
-  MyFloat: 0
-  HasFur: 0
 --- !u!23 &1666075568
 MeshRenderer:
   m_ObjectHideFlags: 0
