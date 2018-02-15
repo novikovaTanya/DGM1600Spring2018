@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ForLoopsAndLists : MonoBehaviour {
 
@@ -31,6 +32,7 @@ public class ForLoopsAndLists : MonoBehaviour {
 	public Incredibles incredibles;
 	public string AddMember;
 	public int index = 0;
+	public Text NewMember;
 
 	void Start () {
 		
@@ -59,5 +61,10 @@ public class ForLoopsAndLists : MonoBehaviour {
 			print("Tetiana is now a member of the incredibles family");
 
 		Names.Clear();
+	}
+
+	void OnMouseDown()
+	{
+		incredibles.FamilyList.Add(NewMember.text);
 	}
 }
