@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 578818540}
   - component: {fileID: 578818539}
   - component: {fileID: 578818544}
+  - component: {fileID: 578818545}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -225,6 +226,22 @@ MonoBehaviour:
   PowerUps:
   - {fileID: 11400000, guid: 6c8d06a65d8985348a1ecfef729b3a46, type: 2}
   - {fileID: 11400000, guid: d8a3b9b1fb1ccb4499cb1c95040c642b, type: 2}
+--- !u!114 &578818545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578818538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23571dfe955b5ff4c8213db159e788dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Names:
+  - Name1
+  - Name2
+  - Name3
+  - Name4
 --- !u!1 &1395598864
 GameObject:
   m_ObjectHideFlags: 0
