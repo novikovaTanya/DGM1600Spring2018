@@ -395,6 +395,7 @@ GameObject:
   - component: {fileID: 1395598866}
   - component: {fileID: 1395598865}
   - component: {fileID: 1395598870}
+  - component: {fileID: 1395598871}
   m_Layer: 0
   m_Name: AddMember
   m_TagString: Untagged
@@ -496,6 +497,19 @@ MonoBehaviour:
   AddMember: 
   index: 0
   NewMember: {fileID: 1390583810}
+--- !u!114 &1395598871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395598864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c95bb11f9adb0243842bc8e3d5098b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UserName: Password
+  powerUp: {fileID: 0}
 --- !u!1 &1644846801
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,7 +29,7 @@ using UnityEngine;
 public class Switch : MonoBehaviour {
 
 	public string UserName;
-	var MyPowerUpBase;
+	public PowerUpBase MyPowerUpBase;
 
 	void OnMouseDown () {
 		switch (UserName) {

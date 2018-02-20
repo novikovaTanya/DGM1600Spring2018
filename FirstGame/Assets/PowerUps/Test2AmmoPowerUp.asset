@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77da13f809f781140978665d7ce41cf9, type: 3}
   m_Name: Test2AmmoPowerUp
   m_EditorClassIdentifier: 
-  PowerLevel: 0
+  PowerLevel: 2233
