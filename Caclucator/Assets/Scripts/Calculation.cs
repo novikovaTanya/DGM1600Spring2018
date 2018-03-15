@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using System.Windows.Forms;
 using System;
 
 public abstract class Calculation : ScriptableObject {
@@ -10,7 +9,6 @@ public abstract class Calculation : ScriptableObject {
 			return Action(float.Parse (a), float.Parse (b));
 		}
 		catch (InvalidCastException e) {
-//			MessageBox.Show("Please, enter valid numbers!");
 			throw;
 		}
 	}
