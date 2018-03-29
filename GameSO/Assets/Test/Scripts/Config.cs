@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu (fileName = "Config")]
 public class Config : ScriptableObject {
 	public float speed;
 	public float jumpSpeed;
