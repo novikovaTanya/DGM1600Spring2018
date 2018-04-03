@@ -14,4 +14,4 @@ MonoBehaviour:
   speed: 6
   jumpSpeed: 8
   gravity: 20
-  intitialPosition: {x: 100, y: 0, z: 0}
+  intitialPosition: {x: 0, y: 0, z: 0}
