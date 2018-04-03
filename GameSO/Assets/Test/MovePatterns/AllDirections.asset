@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Name: AllDirections
   m_EditorClassIdentifier: 
   config: {fileID: 11400000, guid: 1482a65fccbb545e9b3e3119dc9b438e, type: 2}
+  inputX: {fileID: 11400000, guid: d84a4ea15a8ec90448db1211ceabc9c1, type: 2}
+  inputY: {fileID: 11400000, guid: f7530f5fa867b22459734fde7530e892, type: 2}
